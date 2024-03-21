@@ -63,4 +63,49 @@ public class Persona {
         return null;
     }
 
+    /**
+     * @param nombre
+     */
+    public void setNombre(String nombre) {
+        // TODO implement here
+    }
+
+    /**
+     * @return
+     */
+    public String getNombre() {
+        // TODO implement here
+        return "";
+    }
+
+    /**
+     * @param apellidos
+     */
+    public void setApellido(String apellidos) {
+        // TODO implement here
+    }
+
+    /**
+     * @return
+     */
+    public String getApellidos() {
+        // TODO implement here
+        return "";
+    }
+
+    /**
+     * @param edad
+     */
+    public void setEdad(int edad) {
+        // TODO implement here
+    }
+
+    /**
+     * @return
+     */
+    public int getEdad() {
+        // TODO implement here
+        return 0;
+    }
+
 }
