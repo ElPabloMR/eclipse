@@ -1,4 +1,4 @@
-
+package Modelo;
 import java.util.*;
 
 /**
@@ -24,7 +24,6 @@ public class Casa {
     }
 
 
-    public void Attribute1;
 
     public void Casa(String direccion, int numHabitaciones, int metrosCuadrados) {
         // TODO implement here
@@ -35,7 +34,7 @@ public class Casa {
      */
     public String getDireccion() {
         // TODO implement here
-        return "";
+        return this.direccion;
     }
 
     /**
@@ -43,7 +42,7 @@ public class Casa {
      */
     public int getnumHabitaciones() {
         // TODO implement here
-        return 0;
+        return this.numHabitaciones;
     }
 
     /**
@@ -51,36 +50,39 @@ public class Casa {
      */
     public int getmetrosCuadrados() {
         // TODO implement here
-        return 0;
+        return this.metrosCuadrados;
     }
 
     /**
-     * @param direccion
+     * @param direccion La direccion de la casa
      */
     public void setDireccion(String direccion) {
         // TODO implement here
+    	this.direccion=direccion;
     }
 
     /**
-     * @param numHabitaciones
+     * @param numHabitaciones El numero de habitaciones
      */
     public void setNumHabitaciones(int numHabitaciones) {
         // TODO implement here
+    	this.numHabitaciones=numHabitaciones;
     }
 
     /**
-     * @param metrosCuadrados
+     * @param metrosCuadrados El numero de metros cuadrados
      */
     public void setMetrosCuadrados(int metrosCuadrados) {
         // TODO implement here
+    	this.metrosCuadrados=metrosCuadrados;
     }
 
     /**
-     * @return
+     * @return Una cadena con la direccion, el numero de habitaciones y los metros cuadrados
      */
     public String toString() {
         // TODO implement here
-        return "";
+        return direccion+" "+numHabitaciones+" "+metrosCuadrados;
     }
 
 }

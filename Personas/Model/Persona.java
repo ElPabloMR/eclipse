@@ -1,4 +1,4 @@
-
+package Model;
 import java.util.*;
 
 /**
@@ -58,9 +58,9 @@ public class Persona {
     /**
      * @return
      */
-    public String getDNI() {
+    public null getDNI() {
         // TODO implement here
-        return dni;
+        return null;
     }
 
     /**
